@@ -1,5 +1,13 @@
 
+
+----------
+
+1. [Read me](./readme.md "Read me") | 2. Data analysyis | 3. [Data generating ](./datagenerating.md "Data generating") | 4. [Le serveur Rest](./leserveurrest.md "Le serveur Rest")
+
+----------
+
 ## Data Analysis ##
+
 D'après une étude de fonctionalités, bien que notre base de données ne contient pas du big data, nous allons tout de même optimiser notre base de données pour les requêtes de lecture, en créant des pseudo vues matérialisées.
 
 Nous voulons de façon précise,
@@ -235,3 +243,8 @@ Ces exigences nous imposent un modèle avec des vues, triggers et vues matérial
     SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
     SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
     
+----------
+
+1. [Read me](./readme.md "Read me") | 2. Data analysyis | 3. [Data generating ](./datagenerating.md "Data generating") | 4. [Le serveur Rest](./leserveurrest.md "Le serveur Rest")
+
+----------

@@ -1,5 +1,12 @@
 
-# Ci Rest App (Codeigniter Restfull Application) #
+# Codeigniter Restfull Application #
+
+----------
+
+1. Read me | 2. [Data analysyis](./dataanalysis.md "Data analysis") | 3. [Data generating ](./datagenerating.md "Data generating") | 4. [Le serveur Rest](./leserveurrest.md "Le serveur Rest")
+
+----------
+
 
 Ci Rest App est la toute première application Rest PHP basée sous codeigniter visant à tutorer la communauté Ci pour des implémentations de REST. Par soucis de modularité, elle sera construite autour de l'archtecture HMVC, et tournera sous mysql dans un premier temps, une autre version future tournera sous mongodb. 
 
@@ -42,6 +49,9 @@ L'application à notre étude connaîtra un dossier client, entirement rédigé 
 - Bootstrap
 - font-awesome
 
+----------
 
-1. [Data analysyis](./dataanalysis.md "Data analysis")
-2. [Data generating ](./datagenerating.md "Data generating")
+
+ 1. Read me | 2. [Data analysyis](./dataanalysis.md "Data analysis") | 3. [Data generating ](./datagenerating.md "Data generating") | 4. [Le serveur Rest](./leserveurrest.md "Le serveur Rest")
+
+----------

@@ -8,28 +8,41 @@
 	"buffers":
 	[
 		{
-			"file": "readme.md",
+			"file": "api/application/config/database.php",
 			"settings":
 			{
-				"buffer_size": 3127,
-				"line_ending": "Windows"
+				"buffer_size": 3225,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "api/application/config/rest.php",
+			"settings":
+			{
+				"buffer_size": 14090,
+				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 311.0,
 		"selected_items":
 		[
+			[
+				"Package Control: e",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 0.0
+		"width": 400.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 126.0,
 		"history":
 		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
 		]
 	},
 	"distraction_free":
@@ -43,10 +56,20 @@
 	},
 	"expanded_folders":
 	[
-		"/D/wamp/www/ci_RestApp"
+		"/D/wamp/www/ci_RestApp",
+		"/D/wamp/www/ci_RestApp/api",
+		"/D/wamp/www/ci_RestApp/api/application"
 	],
 	"file_history":
 	[
+		"/D/wamp/www/ci_RestApp/dataanalysis.md",
+		"/D/wamp/www/ci_RestApp/readme.md",
+		"/D/wamp/www/ci_RestApp/datagenerating.md",
+		"/D/wamp/www/ci_RestApp/index.html",
+		"/D/wamp/www/ci_RestApp/api/application/libraries/MY_Form_validation.php",
+		"/D/wamp/www/ci_RestApp/api/.htaccess",
+		"/G/codeigniter/wiredesignz-codeigniter-modular-extensions-hmvc-fecd39ccdf56/.hg_archival.txt",
+		"/D/wamp/bin/php/php5.4.3/php.ini",
 		"/H/dll/readme.txt",
 		"/C/Users/qahal/Downloads/readme.txt",
 		"/H/mongodbprojects/firstproject/data/packy.0",
@@ -55,7 +78,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -88,32 +111,61 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "readme.md",
+					"file": "api/application/config/database.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3127,
+						"buffer_size": 3225,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3127,
-								3127
+								2741,
+								2741
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": -0.0,
+						"translation.y": 585.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "api/application/config/rest.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14090,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8206,
+								8537
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 225.0,
+						"translation.y": 3474.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -128,7 +180,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -195,7 +247,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 230.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
